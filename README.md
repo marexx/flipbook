@@ -4,6 +4,7 @@ flipbook
 Flipbook animation
 -----------------
 Displays a set of images, one after an other, to simulate a movie. Of course wihtout sound. 
+
 Checkout [the demo page](http://kunden.marexx.net/flipbook/),
 
 * Autostart on every device, also on Ipad/Mobile
