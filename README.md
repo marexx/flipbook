@@ -26,5 +26,5 @@ Element with the class "flipbook" must have the attribute "data-source" with the
 <div class="flipbook" data-source="image_0.jpg" width="680" height="720"></div>
 ```
 
-If "laoder = true" the "heartcode canvasloader" is displayed.
+If "loader = true" the "heartcode canvasloader" is displayed.
 
