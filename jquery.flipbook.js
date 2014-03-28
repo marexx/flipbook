@@ -94,7 +94,7 @@
              flipbook.init();  
            },
            setLoader: function(){
-           	_this.append('<div id="'+flipbookId+'-loader" class="flipbook-loader"></div>');
+           	_this.append('<div id="'+flipbookId+'-loader" class="flipbook-loader" style="position: absolute; z-index:99"></div>');
    			var cl = new CanvasLoader(flipbookId+'-loader');
    			cl.setColor('#fffaff'); // default is '#000000'
    			cl.setShape('roundRect'); // default is 'oval'
@@ -111,7 +111,7 @@
    	  		loaderObj.css({
    	  			'position': 'absolute',
    	  			'top': 	(settings.height / 2) - 27,
-   	  			'left': (settings.height / 2) - 27
+   	  			'left': (settings.width / 2) - 27
    	  		});
    	  		
            },
