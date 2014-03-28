@@ -4,11 +4,11 @@ flipbook
 Flipbook animation
 -----------------
 Displays a set of images, one after an other, to simulate a movie. Of course wihtout sound. 
-This makes it possible to Autostart it on every device, also on Ipad/Mobile
 
-* Autostart on every device
+* Autostart on every device, also on Ipad/Mobile
 * reloop
 * replace existing video
+* 25 Frames/sec
 
 Usage:
 ------
@@ -29,3 +29,7 @@ Element with the class "flipbook" must have the attribute "data-source" with the
 
 If "loader = true" the "heartcode canvasloader" is displayed.
 
+Problems:
+--------
+Slows down the browser if used more than one time on one page, but for short animation it's possible.
+Tested succesfully with up do 300 images
