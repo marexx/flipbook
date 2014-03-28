@@ -1,8 +1,7 @@
 flipbook
 ========
 
-Flipbook animation
------------------
+##Flipbook animation
 Displays a set of images, one after an other, to simulate a movie. Of course wihtout sound. 
 
 Checkout [the demo page](http://kunden.marexx.net/flipbook/),
@@ -12,8 +11,8 @@ Checkout [the demo page](http://kunden.marexx.net/flipbook/),
 * replace existing video
 * 25 Frames/sec
 
-Usage:
-------
+##Usage:
+
 ```javascript
 $('.flipbook').flipbook({
   images: 20,  					        /* Number of Images available, they have to be continuously numbered, starting with 0 */
@@ -31,7 +30,13 @@ Element with the class "flipbook" must have the attribute "data-source" with the
 
 If "loader = true" the "heartcode canvasloader" is displayed.
 
-Problems:
---------
+##Problems:
+
 Slows down the browser if used more than one time on one page, but for short animation it's possible.
 Tested succesfully with up do 300 images
+
+##About the Author
+
+I am a freelance Frontenddeveloper from the south of Germany
+
+[Check out my website](http://www.marexx.net)
